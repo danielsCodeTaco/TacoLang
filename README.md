@@ -19,13 +19,12 @@ If you would like to make a variable you'd use the "var:" command.
 To use the "var:" command you first type "var:", the variable's name (case sensitive and whitespace sensitive), a comma, and then the value of the variable.
 <br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
-<code>
-var:number,5       -- Creates the number variable and sets it to 5
-var:greeting,hello -- Creates the greeting variable and sets it to hello
-show:number        -- Shows the number variable's value
-show:,             -- Puts ", " between
-show:greeting      -- Shows the greeting variable's value
-var:greeting,hi    -- Changes the greeting variable's value to "hi"
-show:newLine       -- Shows a new line
-show:greeting      -- Shows the new value of greeting
-</code
+
+<code>var:number,5       -- Creates the number variable and sets it to 5</code>
+<code>var:greeting,hello -- Creates the greeting variable and sets it to hello</code>
+<code>show:number        -- Shows the number variable's value</code>
+<code>show:,             -- Puts ", " between</code>
+<code>show:greeting      -- Shows the greeting variable's value</code>
+<code>var:greeting,hi    -- Changes the greeting variable's value to "hi"</code>
+<code>show:newLine       -- Shows a new line</code>
+<code>show:greeting      -- Shows the new value of greeting</code>
