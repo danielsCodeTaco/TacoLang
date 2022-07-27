@@ -21,10 +21,18 @@ To use the "var:" command you first type "var:", the variable's name (case sensi
 Example code for creating variables and then cobcatenating their values together and changing one variable:
 
 <code>var:number,5       -- Creates the number variable and sets it to 5</code>
+<br>
 <code>var:greeting,hello -- Creates the greeting variable and sets it to hello</code>
+<br>
 <code>show:number        -- Shows the number variable's value</code>
+<br>
 <code>show:,             -- Puts ", " between</code>
+<br>
 <code>show:greeting      -- Shows the greeting variable's value</code>
+<br>
 <code>var:greeting,hi    -- Changes the greeting variable's value to "hi"</code>
+<br>
 <code>show:newLine       -- Shows a new line</code>
+<br>
 <code>show:greeting      -- Shows the new value of greeting</code>
+<br>
