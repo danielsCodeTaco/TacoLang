@@ -17,6 +17,7 @@ The code outputs "Hello, World!"
 # Variables, concatenating, and new lines
 If you would like to make a variable you'd use the "var:" command.
 To use the "var:" command you first type "var:", the variable's name (case sensitive and whitespace sensitive), a comma, and then the value of the variable.
+<br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
 <code>
 var:number,5       -- Creates the number variable and sets it to 5
