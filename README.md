@@ -19,7 +19,7 @@ If you would like to make a variable you'd use the "var:" command.
 To use the "var:" command you first type "var:", the variable's name (case sensitive and whitespace sensitive), a comma, and then the value of the variable.
 <br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
-
+<pre>
 <code>var:number,5       -- Creates the number variable and sets it to 5</code>
 <br>
 <code>var:greeting,hello -- Creates the greeting variable and sets it to hello</code>
@@ -36,3 +36,4 @@ Example code for creating variables and then cobcatenating their values together
 <br>
 <code>show:greeting      -- Shows the new value of greeting</code>
 <br>
+</pre>
