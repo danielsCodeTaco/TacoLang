@@ -8,7 +8,7 @@ What you will need:
 2. That's all!
 
 # Hello, World!
-1. Make a new file named "HelloWorld.taco" anywhere\n
+1. Make a new file named "HelloWorld.taco" anywhere
 2. Open it in any text editor
 3. Type <code>show:Hello, World!</code> and save the file
 4. Run the interpreter with the command prompt/terminal like in the above section
@@ -27,3 +27,4 @@ show:greeting      -- Shows the greeting variable's value
 var:greeting,hi    -- Changes the greeting variable's value to "hi"
 show:newLine       -- Shows a new line
 show:greeting      -- Shows the new value of greeting
+</code
