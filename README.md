@@ -35,5 +35,4 @@ Example code for creating variables and then cobcatenating their values together
 <code>show:newLine       -- Shows a new line</code>
 <br>
 <code>show:greeting      -- Shows the new value of greeting</code>
-<br>
 </pre>
