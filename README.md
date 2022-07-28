@@ -7,6 +7,10 @@ What you will need:
 1. Open your command prompt/terminal and type <code>interpreter.exe [path-to-file]</code> (<code>[path-to-file]</code> as the actual path to the code file of course)
 2. That's all!
 
+**OR**
+
+1. Click and drag your file onto the interpreter
+
 # Hello, World!
 1. Make a new file named "HelloWorld.taco" anywhere
 2. Open it in any text editor
