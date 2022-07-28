@@ -248,8 +248,22 @@ int main(const int argc, const char* argv[])
         //std::cout << "name = " + name + ";\n" + "val3 = " + val3 + ";\n";
         variables[name] = val3;
         }
+        else if (linel.find("input") != std::string::npos) { //input command
+            unsigned first = linel.find(":");
+            unsigned last = linel.find(",");
+            std::string name = linel.substr(first + 1);
+            std::string prompt = linel.substr(last + 1, last - first);
+            name.pop_back();
+
+            std::cout << prompt;
+            std::string answer;
+            std::cin >> answer;
+            variables[name] = answer;
+            //std::cout << "name = " + name + ";\n" + "prompt = " + prompt + ";\n" + "answer = " + answer;
+        }
     }
 
     std::cout << "\n";
+    system("pause");
     return 0;
 }
