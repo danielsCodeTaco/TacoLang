@@ -20,21 +20,17 @@ If you would like to make a variable you'd use the "var:" command.
 To use the "var:" command you first type "var:", the variable's name (case sensitive and whitespace sensitive), a comma, and then the value of the variable.
 <br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
-```var:number,5       -- Creates the number variable and sets it to 5```
 <br>
-```var:greeting,hello -- Creates the greeting variable and sets it to hello```
-<br>
-```show:number        -- Shows the number variable's value```
-<br>
-```show:,             -- Puts ", " between```
-<br>
-```show:greeting      -- Shows the greeting variable's value```
-<br>
-```var:greeting,hi    -- Changes the greeting variable's value to "hi"```
-<br>
-```show:newLine       -- Shows a new line```
-<br>
-```show:greeting      -- Shows the new value of greeting```
+```
+var:number,5       -- Creates the number variable and sets it to 5
+var:greeting,hello -- Creates the greeting variable and sets it to hello
+show:number        -- Shows the number variable's value
+show:,             -- Puts ", " between
+show:greeting      -- Shows the greeting variable's value
+var:greeting,hi    -- Changes the greeting variable's value to "hi"
+show:newLine       -- Shows a new line
+show:greeting      -- Shows the new value of greeting
+```
 
 # Simple Math
 I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, and divide)
