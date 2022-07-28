@@ -41,10 +41,9 @@ Example code for creating variables and then cobcatenating their values together
 I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, and divide)
 <br>
 Example for adding one variable and one number together:
-<code>
-var:a,5   -- Creates the a variable and sets it to 5
 <br>
-add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2
+<code>var:a,5   -- Creates the a variable and sets it to 5</code>
 <br>
-show:b    -- Shows the b variable's value
-</code>
+<code>add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2</code>
+<br>
+<code>show:b    -- Shows the b variable's value</code>
