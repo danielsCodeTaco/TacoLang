@@ -37,8 +37,8 @@ I will only show an example for addition as all simple math commands are used th
 <br>
 Example for adding one variable and one number together:
 <br>
-```var:a,5   -- Creates the a variable and sets it to 5</code>```
-<br>
-```add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2</code>```
-<br>
-```show:b    -- Shows the b variable's value</code>```
+```
+var:a,5   -- Creates the a variable and sets it to 5</code>
+add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2</code>
+show:b    -- Shows the b variable's value</code>
+```
