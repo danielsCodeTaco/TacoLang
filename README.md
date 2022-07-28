@@ -11,7 +11,7 @@ What you will need:
 1. Make a new file named "HelloWorld.taco" anywhere
 2. Open it in any text editor
 3. Type <code>show:Hello, World!</code> and save the file
-4. Run the interpreter with the command prompt/terminal like in the above section
+4. Run the interpreter with the command in the above section
 <br>
 The code outputs "Hello, World!"
 
