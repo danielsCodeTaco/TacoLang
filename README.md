@@ -20,7 +20,6 @@ If you would like to make a variable you'd use the "var:" command.
 To use the "var:" command you first type "var:", the variable's name (case sensitive and whitespace sensitive), a comma, and then the value of the variable.
 <br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
-<pre>
 ```var:number,5       -- Creates the number variable and sets it to 5```
 <br>
 ```var:greeting,hello -- Creates the greeting variable and sets it to hello```
@@ -42,8 +41,8 @@ I will only show an example for addition as all simple math commands are used th
 <br>
 Example for adding one variable and one number together:
 <br>
-<code>var:a,5   -- Creates the a variable and sets it to 5</code>
+```var:a,5   -- Creates the a variable and sets it to 5</code>```
 <br>
-<code>add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2</code>
+```add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2</code>```
 <br>
-<code>show:b    -- Shows the b variable's value</code>
+```show:b    -- Shows the b variable's value</code>```
