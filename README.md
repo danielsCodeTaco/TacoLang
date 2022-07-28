@@ -34,7 +34,7 @@ show:greeting      -- Shows the new value of greeting
 ```
 
 # Simple Math
-I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, divide, power, and sqrt (sqrt only takes one argument though))
+I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, divide, sin, cos, tan, power, and sqrt (sqrt only takes one argument though))
 <br>
 Example for adding one variable and one number together:
 <br>
