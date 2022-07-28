@@ -36,4 +36,15 @@ Example code for creating variables and then cobcatenating their values together
 <code>show:newLine       -- Shows a new line</code>
 <br>
 <code>show:greeting      -- Shows the new value of greeting</code>
-</pre>
+
+# Simple Math
+I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, and divide)
+<br>
+Example for adding one variable and one number together:
+<code>
+var:a,5   -- Creates the a variable and sets it to 5
+<br>
+add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2
+<br>
+show:b    -- Shows the b variable's value
+</code>
