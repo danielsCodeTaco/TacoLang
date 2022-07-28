@@ -21,21 +21,21 @@ To use the "var:" command you first type "var:", the variable's name (case sensi
 <br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
 <pre>
-<code>var:number,5       -- Creates the number variable and sets it to 5</code>
+```var:number,5       -- Creates the number variable and sets it to 5```
 <br>
-<code>var:greeting,hello -- Creates the greeting variable and sets it to hello</code>
+```var:greeting,hello -- Creates the greeting variable and sets it to hello```
 <br>
-<code>show:number        -- Shows the number variable's value</code>
+```show:number        -- Shows the number variable's value```
 <br>
-<code>show:,             -- Puts ", " between</code>
+```show:,             -- Puts ", " between```
 <br>
-<code>show:greeting      -- Shows the greeting variable's value</code>
+```show:greeting      -- Shows the greeting variable's value```
 <br>
-<code>var:greeting,hi    -- Changes the greeting variable's value to "hi"</code>
+```var:greeting,hi    -- Changes the greeting variable's value to "hi"```
 <br>
-<code>show:newLine       -- Shows a new line</code>
+```show:newLine       -- Shows a new line```
 <br>
-<code>show:greeting      -- Shows the new value of greeting</code>
+```show:greeting      -- Shows the new value of greeting```
 
 # Simple Math
 I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, and divide)
