@@ -17,6 +17,7 @@ The code outputs "Hello, World!"
 
 # Variables, concatenating, and new lines
 If you would like to make a variable you'd use the "var:" command.
+<br>
 To use the "var:" command you first type "var:", the variable's name (case sensitive and whitespace sensitive), a comma, and then the value of the variable.
 <br>
 Example code for creating variables and then cobcatenating their values together and changing one variable:
@@ -41,4 +42,17 @@ Example for adding one variable and one number together:
 var:a,5   -- Creates the a variable and sets it to 5</code>
 add:b,a.2 -- Creates the b variable and sets it to the a variable's value + 2</code>
 show:b    -- Shows the b variable's value</code>
+```
+
+# Input
+To use the "input:" command you type "input:", your variable's name, then a comma, and then a prompt
+<br>
+Example:
+<br>
+```
+show:What's Your name? -- Says "What's your name? "
+input:name,            -- Creates the variable "name" and sets it to what the user types
+show:Hello,            -- Says "Hello, "
+show:name              -- Says the value of the "name" variable
+show:!                 -- Says "!"
 ```
