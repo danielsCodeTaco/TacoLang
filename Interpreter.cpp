@@ -337,6 +337,35 @@ int main(const int argc, const char* argv[])
             variables[name] = answer;
             //std::cout << "name = " + name + ";\n" + "prompt = " + prompt + ";\n" + "answer = " + answer;
         }
+        else if (linel.find("sin") != std::string::npos) { //sine function
+            unsigned first = linel.find(":");
+            unsigned last = linel.find(",");
+            std::string name = linel.substr(first + 1);
+            std::string val = linel.substr(linel.find(",") + 1);
+            name.pop_back();
+            name.pop_back();
+
+            variables[name] = std::to_string(sin(stod(val)));
+            //std::cout << "name = " + name + ";\n" + "val = " + val + ";\n" + "answer = " + std::to_string(sin(stod(val)));
+        }
+        else if (linel.find("cos") != std::string::npos) { //cosine function
+            unsigned first = linel.find(":");
+            unsigned last = linel.find(",");
+            std::string name = linel.substr(first + 1);
+            std::string val = linel.substr(last + 1, last - first);
+            name.pop_back();
+
+            variables[name] = cos(stod(val));
+        }
+        else if (linel.find("tan") != std::string::npos) { //tangent function
+            unsigned first = linel.find(":");
+            unsigned last = linel.find(",");
+            std::string name = linel.substr(first + 1);
+            std::string val = linel.substr(last + 1, last - first);
+            name.pop_back();
+
+            variables[name] = tan(stod(val));
+        }
     }
 
     std::cout << "\n";
