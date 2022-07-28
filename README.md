@@ -33,8 +33,8 @@ show:newLine       -- Shows a new line
 show:greeting      -- Shows the new value of greeting
 ```
 
-# Simple Math
-I will only show an example for addition as all simple math commands are used the same (add, subract, multiply, divide, sin, cos, tan, power, and sqrt (sqrt, sin, cos, and tan only take one argument though))
+# Math
+I will only show an example for addition as all math commands are used the same (add, subract, multiply, divide, sin, cos, tan, power, and sqrt (sqrt, sin, cos, and tan only take one argument though))
 <br>
 Example for adding one variable and one number together:
 <br>
